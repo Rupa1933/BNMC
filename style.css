@@ -1,0 +1,289 @@
+body
+{
+   
+  overflow-x: hidden;
+}
+
+.smi
+{
+    height: 30px;
+    width: 30px;
+    border: 1px solid red;
+    border-radius: 50%;
+    text-align: center;
+}
+.border-dotted-maroon
+{
+    border-bottom: 2px dotted maroon;
+}
+.text-maroon
+{
+    color: maroon;
+}
+.bg-maroon
+{
+    background-color: maroon;
+}
+.btn-maroon
+{
+    background-color: maroon;
+    color: white;
+
+}
+.btn-maroon:hover
+{
+    background-color: maroon;
+    color: white;
+    
+}
+.border-maroon{
+    border: 1px solid maroon;
+}
+.border-dashed-maroon
+{
+    border-top: 2px dashed maroon;
+    border-bottom: 2px dashed maroon;
+}
+
+.heading::after
+{
+    content: '';
+    height: 5px;
+    width: 50px;
+    background-color: green;
+    position: absolute;
+    margin-top: 58px;
+    left:47%;
+}
+.heading::before
+{
+    content: '';
+    height: 3px;
+    width: 110px;
+    background-color: gray;
+    position: absolute;
+    margin-top: 59px;
+    left:45%;
+}
+.pm
+{
+    height: 400px;
+    background: linear-gradient(90deg, rgba(150,0,0,0.9) , rgba(150,0,0,0.9)),url('../images/9.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*  swiper css */
+ 
+    swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      /* background: #444; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .sis
+    {
+      height: 400px;
+      background: linear-gradient(0deg, rgba(150,0,0,0.5) , rgba(150,0,0,0.5)),url('../images/9.jpg');
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+    }  
+    .mbox
+    {
+        height: 300px;
+        overflow: hidden;
+    }
+
+.static
+{
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.footer ul
+{
+    list-style-type: none;
+}
+
+.cpy
+{
+    background-color:rgb(73, 10, 10);
+    text-align: center;
+}
+.box
+{
+    height: 300px;
+    max-width: 400px;
+    overflow: hidden;
+}
+.box img
+{
+    height: 100%;
+    transition: 0.4s ease-in;
+}
+.icon
+{
+ position: absolute;
+ margin-top: -50px;
+ margin-left: 20px;
+ color: white;
+ display: none;
+}
+.box:hover img
+{
+    transform: scale(1.1);
+    opacity: 0.7;
+    
+}
+.box:hover .icon
+{
+    display: block;
+}
+.btne
+{
+    position: fixed;
+    top:350px;
+    transform: rotate(90deg);
+    left: -50px;
+    animation: blink 1s infinite;
+    
+}
+@keyframes blink
+{
+    0%
+    {
+        
+    }
+    50%
+    {
+        background-color: maroon;
+        color: white;
+    }
+    75%
+    {
+        background-color: rgb(237,183,5);
+        color: maroon;
+    }
+    100%
+    {
+        background-color: maroon;
+        color: white;
+    }
+}
+.btne1
+{
+    position: fixed;
+    top:350px;
+    transform: rotate(90deg);
+    right: -50px;
+    animation: blink 1s infinite;
+    
+}
+@keyframes blink
+{
+    0%
+    {
+        
+    }
+    50%
+    {
+        background-color: maroon;
+        color: white;
+    }
+    75%
+    {
+        background-color: rgb(237,183,5);
+        color: maroon;
+    }
+    100%
+    {
+        background-color: maroon;
+        color: white;
+    }
+}
+.btn-arrow
+{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+/* swipper class 2 */
+
+    swiper-container {
+      width: 100%;
+      height: 100%;
+      
+    }
+
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      //background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    swiper-slide .ims {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+.bg-beige
+{
+    background-color:beige;
+}
+    .cimg:hover  img
+    {
+       opacity: 0.5;
+       transform: scale(1.1);
+
+       
+       
+    }
+    .cimg img
+    {
+      overflow: hidden;
+      
+      
+    }
+    
+
+    /* about css start */
+    .si
+    {
+      height: 300px;
+      background: linear-gradient(0deg, rgba(150,0,0,0.5) , rgba(150,0,0,0.5)),url('../images/9.jpg');
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+    } 
+    .imge
+    {
+        height: 350px;
+        width: 400px;
+    }
+    /* about css end */
+
+    
